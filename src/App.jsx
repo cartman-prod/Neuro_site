@@ -1,8 +1,8 @@
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
-import Contact from './pages/Contact';
 import Fidback from './pages/Fidback';
+import Project from './pages/Project';
 import { Route, Routes } from 'react-router-dom';
 import './index.css';
 import './reset.css';
@@ -14,7 +14,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
-          {/* <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/project/:id" element={<Project />} />
           <Route path="/form" element={<Fidback />} />
         </Routes>
       </div>

@@ -1,0 +1,78 @@
+import persimg_1 from '../../assets/teams/Petr.png';
+
+const teams = [
+  {
+    id: 1,
+    name: 'Иван',
+    lastName: 'Иванов',
+    position: 'Frontend',
+    img: persimg_1,
+    linkInstagram: '',
+    linkLinkedin: '',
+  },
+  {
+    id: 2,
+    name: 'Петр',
+    lastName: 'Петров',
+    position: 'Backend',
+    img: persimg_1,
+    linkInstagram: '',
+    linkLinkedin: '',
+  },
+  {
+    id: 3,
+    name: 'Сергей',
+    lastName: 'Сергеев',
+    position: 'Fullstack',
+    img: persimg_1,
+    linkInstagram: '',
+    linkLinkedin: '',
+  },
+  {
+    id: 4,
+    name: 'Иван',
+    lastName: 'Иванов',
+    position: 'Frontend',
+    img: persimg_1,
+    linkInstagram: '',
+    linkLinkedin: '',
+  },
+  {
+    id: 5,
+    name: 'Петр',
+    lastName: 'Петров',
+    position: 'Backend',
+    img: persimg_1,
+    linkInstagram: '',
+    linkLinkedin: '',
+  },
+  {
+    id: 6,
+    name: 'Сергей',
+    lastName: 'Сергеев',
+    position: 'Fullstack',
+    img: persimg_1,
+    linkInstagram: '',
+    linkLinkedin: '',
+  },
+  {
+    id: 7,
+    name: 'Иван',
+    lastName: 'Иванов',
+    position: 'Frontend',
+    img: persimg_1,
+    linkInstagram: '',
+    linkLinkedin: '',
+  },
+  {
+    id: 8,
+    name: 'Петр',
+    lastName: 'Петров',
+    position: 'Backend',
+    img: persimg_1,
+    linkInstagram: '',
+    linkLinkedin: '',
+  },
+];
+
+export { teams };

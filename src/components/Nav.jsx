@@ -12,7 +12,7 @@ const Nav = () => {
     { name: 'Главная', href: '/' },
     { name: 'О нас', href: '/about' },
     { name: 'Проекты', href: '/projects' },
-    { name: 'Контакты', href: '/contact' },
+    // { name: 'Контакты', href: '/contact' },
   ];
   return (
     <>
@@ -24,12 +24,12 @@ const Nav = () => {
         <div className="flex items-center justify-center gap-10">
           <ul className="hidden md:flex justify-center gap-5">
             {navigation.map((item) => (
-              <li className="  py-4 px-4 " key={item.name}>
+              <li className=" py-4 px-4 " key={item.name}>
                 <NavLink
                   className={({ isActive }) =>
                     isActive
-                      ? 'active bg-orange-500 border-orange-500 rounded-full py-2 px-6 text-xl'
-                      : 'hover:bg-orange-500 hover:text-black py-2 px-6 duration-500 hover:rounded-full hover:duration-500 xl:text-xl'
+                      ? 'active bg-orange-500 border-orange-500 rounded-full py-2 px-6 md:text-sm xl:text-xl'
+                      : 'hover:bg-orange-500 hover:text-black py-2 px-6 duration-500 hover:rounded-full hover:duration-500 md:text-sm xl:text-xl'
                   }
                   to={item.href}>
                   {item.name}
