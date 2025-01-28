@@ -2,14 +2,14 @@ import { NavLink } from 'react-router-dom';
 const mobnav = [
   { name: 'Главная', href: '/' },
   { name: 'О нас', href: '/about' },
-  { name: 'Блог', href: '/blog' },
-  { name: 'Контакты', href: '/contact' },
+  { name: 'Проекты', href: '/projects' },
+  // { name: 'Контакты', href: '/contact' },
 ];
 const Menu = ({ isOpen = false }) => {
   return (
     <>
       <div
-        className={`absolute top-0 left-0 right-0 z-10 bg-stone opacity-60 justify-center min-h-[150vh]  ${
+        className={`absolute top-0 left-0 right-0 z-10 bg-stone opacity-60 justify-center min-h-[150vh]${
           isOpen ? 'flex' : 'hidden'
         }`}
       />

@@ -22,9 +22,9 @@ const Nav = () => {
           <h1 className="font-bold xl:text-3xl text-orange-500">Neural Edge</h1>
         </div>
         <div className="flex items-center justify-center gap-10">
-          <ul className="hidden md:flex justify-center gap-5">
+          <ul className="hidden md:flex justify-center gap-1 xl:gap-5">
             {navigation.map((item) => (
-              <li className=" py-4 px-4 " key={item.name}>
+              <li className="py-2 px-2 xl:py-4 xl:px-4 " key={item.name}>
                 <NavLink
                   className={({ isActive }) =>
                     isActive
